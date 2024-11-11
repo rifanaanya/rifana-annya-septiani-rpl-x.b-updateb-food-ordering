@@ -1,0 +1,42 @@
+ body{
+    font-family: Arial,sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cadetblue;
+ }
+ .container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 300px;
+ }
+ h1{
+    color: aqua;
+ }
+ form div{
+    margin: 10px 0;
+ }
+ select{
+    width: 100%;
+    padding: 8px;
+ }
+ button{
+    background-color: aquamarine;
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+ }
+ button:hover{
+    background-color: aliceblue;
+ }
+ #result{
+    margin-top: 15px;
+    font-weight: bold;
+    color: cornflowerblue;
+ }
